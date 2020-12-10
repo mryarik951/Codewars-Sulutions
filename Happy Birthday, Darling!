@@ -1,0 +1,8 @@
+#https://www.codewars.com/kata/5e96332d18ac870032eb735f
+
+def womens_age(n):
+    if n % 2 == 0:
+        x = 20
+    else:
+        x = 21
+    return f"{n}? That's just {x}, in base {n // 2}!"
