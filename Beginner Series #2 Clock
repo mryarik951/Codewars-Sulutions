@@ -1,0 +1,7 @@
+#https://www.codewars.com/kata/55f9bca8ecaa9eac7100004a
+
+def past(h, m, s):
+    seconds = s * 1000
+    minutes = m * 60000
+    hours = h * 3600000
+    return seconds + minutes + hours
