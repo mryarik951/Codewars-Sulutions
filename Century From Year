@@ -1,0 +1,9 @@
+#https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097
+
+def century(year):
+    year_1 = year % 100
+    year_2 = year // 100
+    if year_1 == 0:
+        return year_2
+    else:
+        return year_2 + 1
